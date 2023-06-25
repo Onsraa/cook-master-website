@@ -1,0 +1,83 @@
+
+.search-results {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap; /* Allow the items to wrap to the next line */
+    justify-content: start; /* Align items to the start of the container */
+    align-items: center; /* Center items vertically */
+    width: 80%;
+    margin: 0 auto; /* Center the search results div */
+}
+.recipe-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    margin: 0 0 12px;
+}
+
+
+.recipe-card img {
+    height: 180px;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+.recipe-name{
+    color: #000;
+    font-family: brandon-grotesque,"sans serif",sans-serif,"Helvetica Neue",Helvetica,arial;
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: uppercase;
+    white-space: normal;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 3.5px 0 14px;
+}
+.title-content {
+    position: absolute;
+    bottom: 14px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    top: 200px;
+    padding:5px;
+}
+
+
+.inner-recipe-card {
+    width: 25%;
+    padding-left: 7px;
+    padding-right: 7px;
+    float: left;
+    margin-bottom: 14px;
+    height: 372px;
+    position: relative;
+    background-color: #fff;
+}
+.time-difficulty-content {
+    position: absolute;
+    padding: 5px;
+    bottom: 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+}
+
+.time-difficulty-content .difficulty {
+    margin-right: auto;
+}
+.time-difficulty-content .time{
+    margin-left:auto;
+}
+.time i{
+    padding-right:5px;
+}

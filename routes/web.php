@@ -4,6 +4,7 @@ use App\Http\Controllers\Frontend\EventsController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\StripeController;
 use App\Http\Controllers\Frontend\RentalsController;
+use App\Http\Controllers\RecipeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -15,7 +16,8 @@ use App\Http\Controllers\Frontend\RentalsController;
 | be assigned to the "web" middleware group. Make something great!
 |
 */
-
+Route::get('/api/recipes/{query}', [RecipeController::class, 'search']);
+Route::get('/api/searchId/{id}', [RecipeController::class, 'searchId'])->name('recipes.searchId');
 Route::get('/', function () {
     return view('welcome');
 })->name('welcome');
