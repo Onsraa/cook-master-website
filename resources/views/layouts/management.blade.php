@@ -43,6 +43,10 @@
                     {{ __('Events') }}
                 </x-admin-nav-link>
 
+                <x-admin-nav-link :href="route('management.lessons.index')" :active="request()->routeIs('management.lessons.index')">
+                    {{ __('Lessons') }}
+                </x-admin-nav-link>
+
                 <x-admin-nav-link :href="route('management.rentings.index')" :active="request()->routeIs('management.rentings.index')">
                     {{ __('Rentings') }}
                 </x-admin-nav-link>

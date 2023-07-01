@@ -15,11 +15,12 @@ return new class extends Migration
             $table->id();
             $table->string('title');
             $table->text('description');
-            $table->text('chef');
-            $table->string('category');
-            $table->string('level');
-            $table->string('image_url');
-            $table->timestamps();
+            $table->text('price');
+            $table->string('duration');
+            $table->string('score');
+            $table->string('create_date');
+            $table->foreignId('user_id')->nullable()->constrained('users');
+
         });
     }
 
