@@ -131,10 +131,10 @@ REDIS_PASSWORD=null
 REDIS_PORT=6379
 
 MAIL_DRIVER=smtp
-MAIL_HOST=smtp.googlemail.com
-MAIL_PORT=465
-MAIL_USERNAME=example@gmail.com
-MAIL_PASSWORD=password
+MAIL_HOST=smtp.googlemail.com // [MODIFY IF SMTP IS NOT FROM GOOGLE]
+MAIL_PORT=465 
+MAIL_USERNAME=example@gmail.com // [MODIFY]
+MAIL_PASSWORD=password // [MODIFY]
 MAIL_ENCRYPTION=ssl
 
 STRIPE_KEY=pk_example
