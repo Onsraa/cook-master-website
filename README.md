@@ -36,7 +36,7 @@ Also, Laravel offers an easy way to render your front view vith blade framework 
 **The stack :** 
 - Laravel 10.x [https://laravel.com/docs/10.x/installation]
 - Blade [https://laravel.com/docs/10.x/blade]
-- Lviewire [https://laravel-livewire.com/docs/2.x/quickstart]
+- Livewire [https://laravel-livewire.com/docs/2.x/quickstart]
 
 **Api for payment :**
 - Stripe [https://stripe.com/docs/api]
